@@ -1,0 +1,129 @@
+@import url('https://fonts.google.com/specimen/Pacifico');
+@import url('https://fonts.adobe.com/fonts/gibson');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+body
+{
+  background-color: #FF90BC;
+  font-family: 'Pacifico', sans-serif;
+}
+/** NEON MEMMUKKANEN**/
+.wrapper.two {
+    background-color: #FF90BC;
+    padding: 25px;
+    font-size: 3rem;
+    font-family: "Play", sans-serif;
+    text-align: center;
+}
+.neon h3 {
+    margin: 1rem auto;
+    animation: neon 1s ease infinite;
+}
+@keyframes neon {
+    0%,
+    100% {
+        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+        color: #f5efcb;
+    }
+    50% {
+        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+        color: #eda0d3;
+    }
+}
+
+h1
+{
+  padding: 20px;
+}
+
+.couplecat
+{
+  text-align: center;
+  padding-top: 50px;
+  border-radius: 50%;
+}
+
+#valentine
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #FF90BC;
+  background-color: #FFF8E3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#valentine:hover {background-color: #C499F3}
+
+
+#valentine:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container
+{
+  text-align: center;
+}
+
+.iloveyou
+{
+  padding: 0px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin: 1rem auto;
+  animation: neon 1s ease infinite;
+
+
+}
+
+.foryou
+{
+  border: none;
+}
+
+#ruoka
+{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 120px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #F9F9E0;
+  background-color: #FFF8E3;
+  background-image: url('https://em-content.zobj.net/social/emoji/pizza.png');
+  background-size: cover;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#ruoka:hover {background-color: #C499F3}
+
+#ruoka:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 15%;
+}
